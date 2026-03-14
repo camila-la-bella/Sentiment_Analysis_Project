@@ -51,6 +51,9 @@ to the corresponding model path.
 - `requirements.md` contains the required environment configuration.
 
 
+
+Direcroty Structures / 文件目录
+```
 .
 ├── data/                           # 数据集目录 / dataset directory
 │   ├── train.txt                   # 训练集 / training set
@@ -67,3 +70,4 @@ to the corresponding model path.
 ├── train_LSTM.py                   # LSTM 模型训练脚本 / LSTM training script
 ├── train_MLP.py                    # MLP 模型训练脚本 / MLP training script
 └── wiki_word2vec_50.bin            # 词向量二进制文件 / binary word embedding file
+```
